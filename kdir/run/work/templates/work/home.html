@@ -1,0 +1,6 @@
+{% extends 'work/base.html' %}
+{% block content %}
+    {% for todo in todos %}
+    <h1>{{ todo.title }}</h1>
+    {% endfor %}
+{% endblock %}
